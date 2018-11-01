@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Saved
+/Intermediate
+/Binaries/Win64
+/.vs/BuildingEscape/v15
+/Content/StarterContent
