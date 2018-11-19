@@ -32,7 +32,16 @@ public:
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 
+
 private:
+	struct LineTrace {
+		FVector Start;
+		FVector End;
+	};
+
+
+	LineTrace GetLineTrace();
+	
 	FHitResult GetFirstPhysicsBodyInReach();
 	
 	void Grab();

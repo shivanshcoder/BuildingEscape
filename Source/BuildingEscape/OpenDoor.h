@@ -42,6 +42,7 @@ private:
 
 	float LastDoorOpenTime;
 
+	float GetMassOverlapping();
 	//UPROPERTY(EditAnywhere)
-	AActor* ActorThatOpens;
+	//AActor* ActorThatOpens;
 };
